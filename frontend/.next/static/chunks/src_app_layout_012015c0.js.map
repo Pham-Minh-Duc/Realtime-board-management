@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/OneDrive/M%C3%A1y%20t%C3%ADnh/personal%20project/Real-Time%20Board%20Managemenr%20Tool/frontend/src/app/layout.js"],"sourcesContent":["\"use client\";\n\nimport \"./../styles/globals.css\";\nimport { SessionProvider } from \"next-auth/react\";\n\n\nexport default function RootLayout({ children }) {\n  return (\n    <html lang=\"en\">\n      <body>\n          <SessionProvider>{children}</SessionProvider>\n      </body>\n    </html>\n  );\n}\n"],"names":[],"mappings":";;;;;AAGA;AAHA;;;;AAMe,SAAS,WAAW,KAAY;QAAZ,EAAE,QAAQ,EAAE,GAAZ;IACjC,qBACE,6LAAC;QAAK,MAAK;kBACT,cAAA,6LAAC;sBACG,cAAA,6LAAC,oKAAe;0BAAE;;;;;;;;;;;;;;;;AAI5B;KARwB","debugId":null}}]
+}

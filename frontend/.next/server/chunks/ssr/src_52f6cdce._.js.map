@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/OneDrive/M%C3%A1y%20t%C3%ADnh/personal%20project/Real-Time%20Board%20Managemenr%20Tool/frontend/src/components/DraggableTask.jsx"],"sourcesContent":["import { useDrag } from \"react-dnd\";\r\n\r\nexport default function DraggableTask({ task }) {\r\n  const [{ isDragging }, drag] = useDrag(() => ({\r\n    type: \"TASK\",\r\n    item: { id: task.id },\r\n    collect: (monitor) => ({\r\n      isDragging: monitor.isDragging(),\r\n    }),\r\n  }));\r\n\r\n  return (\r\n    <div\r\n      ref={drag}\r\n      className={`bg-white p-2 rounded shadow m-1 cursor-move ${\r\n        isDragging ? \"opacity-50\" : \"\"\r\n      }`}\r\n    >\r\n      {task.title} - {task.status}\r\n    </div>\r\n  );\r\n}"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS,cAAc,EAAE,IAAI,EAAE;IAC5C,MAAM,CAAC,EAAE,UAAU,EAAE,EAAE,KAAK,GAAG,IAAA,8KAAO,EAAC,IAAM,CAAC;YAC5C,MAAM;YACN,MAAM;gBAAE,IAAI,KAAK,EAAE;YAAC;YACpB,SAAS,CAAC,UAAY,CAAC;oBACrB,YAAY,QAAQ,UAAU;gBAChC,CAAC;QACH,CAAC;IAED,qBACE,8OAAC;QACC,KAAK;QACL,WAAW,CAAC,4CAA4C,EACtD,aAAa,eAAe,IAC5B;;YAED,KAAK,KAAK;YAAC;YAAI,KAAK,MAAM;;;;;;;AAGjC","debugId":null}}]
+}

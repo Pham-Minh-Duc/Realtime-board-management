@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 11, "column": 0}, "map": {"version":3,"sources":["file:///D:/OneDrive/M%C3%A1y%20t%C3%ADnh/personal%20project/Real-Time%20Board%20Managemenr%20Tool/frontend/src/app/page.js"],"sourcesContent":["import Image from \"next/image\";\n\nexport default function Home() {\n  return (\n    <main className=\"flex min-h-screen flex-col items-center justify-between p-24\">\n      <div className=\"z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex\">\n      </div>\n    </main>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,0PAAC;QAAK,WAAU;kBACd,cAAA,0PAAC;YAAI,WAAU;;;;;;;;;;;AAIrB","debugId":null}}]
+}

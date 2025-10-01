@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/OneDrive/M%C3%A1y%20t%C3%ADnh/personal%20project/Real-Time%20Board%20Managemenr%20Tool/frontend/src/app/dashboard/page.jsx"],"sourcesContent":["\"use client\"\r\n\r\nimport { useEffect } from \"react\"\r\n\r\nexport default function DashBoardPage() {\r\n  useEffect(() => {\r\n  const fetchSession = async () => {\r\n    const sessionRes = await fetch(\"/api/auth/session\");\r\n    const session = await sessionRes.json();\r\n    console.log(\"Session sau khi đăng nhập:\", session);\r\n  };\r\n\r\n  fetchSession();\r\n}, []);\r\n  return (\r\n    <div className=\"p-6\">\r\n      <h1 className=\"text-xl font-bold\">Cards</h1>\r\n      <p>Đây là nội dung của tab dashboard.</p>\r\n    </div>\r\n  );\r\n}"],"names":[],"mappings":";;;;;AAEA;AAFA;;;AAIe,SAAS;IACtB,IAAA,kNAAS,EAAC;QACV,MAAM,eAAe;YACnB,MAAM,aAAa,MAAM,MAAM;YAC/B,MAAM,UAAU,MAAM,WAAW,IAAI;YACrC,QAAQ,GAAG,CAAC,8BAA8B;QAC5C;QAEA;IACF,GAAG,EAAE;IACH,qBACE,8OAAC;QAAI,WAAU;;0BACb,8OAAC;gBAAG,WAAU;0BAAoB;;;;;;0BAClC,8OAAC;0BAAE;;;;;;;;;;;;AAGT","debugId":null}}]
+}

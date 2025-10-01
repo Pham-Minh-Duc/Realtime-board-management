@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 11, "column": 0}, "map": {"version":3,"sources":["file:///D:/OneDrive/M%C3%A1y%20t%C3%ADnh/personal%20project/Real-Time%20Board%20Managemenr%20Tool/frontend/src/app/debug/page.js"],"sourcesContent":["export default function DebugPage() {\r\n  return (\r\n    <pre>\r\n      {JSON.stringify({\r\n        GITHUB_CLIENT_ID: process.env.GITHUB_CLIENT_ID,\r\n        GITHUB_CLIENT_SECRET: process.env.GITHUB_CLIENT_SECRET,\r\n        NEXTAUTH_URL: process.env.NEXTAUTH_URL,\r\n      }, null, 2)}\r\n    </pre>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBACE,8OAAC;kBACE,KAAK,SAAS,CAAC;YACd,kBAAkB,QAAQ,GAAG,CAAC,gBAAgB;YAC9C,sBAAsB,QAAQ,GAAG,CAAC,oBAAoB;YACtD,cAAc,QAAQ,GAAG,CAAC,YAAY;QACxC,GAAG,MAAM;;;;;;AAGf","debugId":null}}]
+}
